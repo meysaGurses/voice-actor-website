@@ -1,0 +1,130 @@
+body{
+    background-color: #d5bdaf;
+}
+
+.nav-css{
+    background-color: #edede9;
+    color: #252422;
+    
+
+}
+
+.voice-art{
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 19px;
+}
+
+.voice-art .voice-art{
+    font-size: 16px;   
+    padding: 8px;
+    margin-right: 4px;
+    color: #403d39;
+}
+nav ul{
+    cursor: pointer;
+    
+
+}
+nav ul li{
+    border-bottom: 2px solid #e3d5ca;
+    margin-right: 7px;
+    padding: 6px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+nav ul li:hover{
+    border: 2px solid #d5bdaf;
+    background: linear-gradient(to left, #d5bdaf, #edede9);
+    border-radius: 3px;
+    color: #333;
+    margin-right: 7px;
+}
+
+
+h1{
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 70px; /* Footer yüksekliği + ekstra boşluk */
+}
+
+.contact-form{
+
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow:  0 4px 10px rgba(0, 0, 0, .1);
+    padding: 20px;
+   width: 300px;
+    
+    overflow: hidden;
+}
+
+label{
+display: block;
+margin-bottom: 8px;
+}
+
+
+input[type="text"], input[type="email"], input[type="number"], input[type="range"] textarea{
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+border: 1px solid #ced4da;
+border-radius: 2px;
+box-sizing: border-box;
+} 
+
+.submit-btn{
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    background: linear-gradient(to left, #edede9, #d5bdaf);    padding: 18px 24px;
+    border-radius: 5px;
+    gap: 8px;
+    color: #403d39;
+    letter-spacing: 1px;
+    font-size: 16px;
+    z-index: 20;
+}
+
+.submit-btn:hover{
+    background: linear-gradient(to left, #d5bdaf, #edede9);
+    color: #403d39;
+    box-shadow: 1px 1px 1px 1px #403d39;
+    
+}
+
+.footer-css{
+    background-color: #edede9;
+    height: 60px;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+   padding: 3px;
+    color: #403d39;
+}
+
+.footer-css a{
+    
+    text-decoration: none;
+    color: #403d39;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}

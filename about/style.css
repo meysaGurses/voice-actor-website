@@ -1,0 +1,178 @@
+/* color
+edede9
+d6ccc2
+f5ebe0
+f5ebe0
+e3d5ca
+d5bdaf
+403d39
+252422
+*/
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.nav-css{
+    background-color: #edede9;
+    color: #252422;
+    
+
+}
+
+.voice-art{
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 19px;
+}
+
+.voice-art .voice-art{
+    font-size: 16px;   
+    padding: 8px;
+    margin-right: 4px;
+    color: #403d39;
+}
+nav ul{
+    cursor: pointer;
+    
+
+}
+nav ul li{
+    border-bottom: 2px solid #e3d5ca;
+    margin-right: 7px;
+    padding: 6px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+nav ul li:hover{
+    border: 2px solid #d5bdaf;
+    background: linear-gradient(to left, #d5bdaf, #edede9);
+    border-radius: 3px;
+    color: #333;
+    margin-right: 7px;
+}
+
+.header-css{
+    border-top: 1px solid #e3d5ca;
+}
+
+.header-css .header-css{
+    background-color: #edede9;
+    border-radius: 3px;
+}
+
+.header-css h1{
+    color: #403d39;
+}
+
+.header-css p{
+    padding: 6px;
+    color: #403d39;
+}
+
+.header-css button{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    background: linear-gradient(to left, #edede9, #d5bdaf);    padding: 18px 24px;
+    border-radius: 5px;
+    gap: 8px;
+    color: #403d39;
+    letter-spacing: 1px;
+    font-size: 16px;
+    z-index: 20;
+}
+
+.header-css button:hover{
+    background: linear-gradient(to left, #d5bdaf, #edede9);
+    color: #403d39;
+    box-shadow: 1px 1px 1px 1px #403d39;
+    
+}
+
+.ad-icon{
+    width: 300px;
+   margin: 90px;
+}
+
+.container-css{
+    background-color: #edede9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+}
+
+
+.container-icons{
+    font-size: 3rem;
+    background-color: #d5bdaf;
+    border: 2px solid #d5bdaf;
+}
+
+
+.news-writer{
+    background: linear-gradient(to left, #d5bdaf, #edede9);
+    margin-top: 9px;
+}
+
+
+.footer-css{
+    background-color: #edede9;
+    height: 60px;
+    align-items: center;
+    
+    color: #403d39;
+display: flex;
+position: fixed;
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-css a{
+    text-decoration: none;
+    color: #403d39;
+}
+
+.profile-css{
+    width: 150px;
+            height: 250px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 20px auto;
+            border: 5px solid #ddd;
+}
+
+.profile-css img{
+    width: 100%;
+            height: auto;
+}
+
+.container {
+    
+    margin: auto;
+    padding: 20px;
+}
+
+
+.container p{
+    margin-top: 19px;
+    margin-bottom: 99px;
+    letter-spacing: 1px;
+    
+
+}
+
+h2{
+    font-size: 2em;
+}
+
